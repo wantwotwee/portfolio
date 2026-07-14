@@ -5,7 +5,7 @@ function renderProjects() {
     <article class="project" data-project="${project.number}">
       <div class="project-sticky section-shell">
         <div class="project-copy reveal">
-          <p class="section-index">Archive entry · ${project.number}</p>
+          <p class="section-index"> ${project.number}</p>
           <p class="project-type">${project.type}</p>
           <h3>${project.title}</h3>
           <p class="project-description">${project.description}</p>
