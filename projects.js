@@ -8,7 +8,7 @@ window.PORTFOLIO_PROJECTS = [
     description: "A Singapore-based platform bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, & collectible cards.",
     image: "assets/mokosh-threads.webp",
     alt: "Slavic embroidered textiles and a vintage mechanical watch",
-    tags: ["Brand building", "Web design", "Curation", "Storytelling"],
+    tags: ["Brand building", "Web design", "Curation", "E-commerce"],
     link: "https://mokoshthreads.com",
     linkLabel: "Visit Mokosh Threads"
   },
