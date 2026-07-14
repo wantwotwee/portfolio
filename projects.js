@@ -5,7 +5,7 @@ window.PORTFOLIO_PROJECTS = [
     number: "01",
     title: "Mokosh Threads",
     type: "E-commerce · Ongoing",
-    description: "A Singapore-based platform bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, & collectible cards.",
+    description: "A Singapore-based store bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, & collectible cards.",
     image: "assets/mokosh-threads.webp",
     alt: "Slavic embroidered textiles and a vintage mechanical watch",
     tags: ["Brand building", "Web design", "Curation", "E-commerce"],
