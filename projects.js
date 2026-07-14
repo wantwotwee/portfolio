@@ -4,8 +4,8 @@ window.PORTFOLIO_PROJECTS = [
   {
     number: "01",
     title: "Mokosh Threads",
-    type: "E-commerce · Cultural archive · Ongoing",
-    description: "A Singapore-based platform bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, collectible cards and relics with stories.",
+    type: "E-commerce · Ongoing",
+    description: "A Singapore-based platform bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, & collectible cards.",
     image: "assets/mokosh-threads.webp",
     alt: "Slavic embroidered textiles and a vintage mechanical watch",
     tags: ["Brand building", "Web design", "Curation", "Storytelling"],
@@ -20,8 +20,8 @@ window.PORTFOLIO_PROJECTS = [
     image: "assets/unemployed-kittens.webp",
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
     tags: ["Generative AI", "Character design", "Social media", "Comedy"],
-    link: "#",
-    linkLabel: "Social link coming soon"
+    link: "https://www.instagram.com/unemployedkittens/reels/",
+    linkLabel: "Visit @unemployedkittens"
   },
   {
     number: "03",
@@ -31,7 +31,7 @@ window.PORTFOLIO_PROJECTS = [
     image: "assets/mokosh-myths.jpeg",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
     tags: ["World mythology", "AI filmmaking", "Research", "Narrative design"],
-    link: "#",
-    linkLabel: "Social link coming soon"
+    link: "https://www.instagram.com/mokoshmyths/",
+    linkLabel: "Visit @mokoshmyths"
   }
 ];
