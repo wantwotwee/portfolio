@@ -1,31 +1,71 @@
-# Wan Ariff — Creative Projects
+# Wan Ariff — Creative Portfolio
 
-A static, scroll-animated portfolio designed for GitHub Pages. No build tools are required.
+A cinematic portfolio presenting the creative projects, brands and digital experiments I am currently developing.
 
-## Publish on GitHub Pages
+The website explores the intersection of culture, technology, storytelling, generative AI and historical objects through an immersive, scroll-driven visual experience.
 
-1. Create a new GitHub repository.
-2. Upload everything inside this folder, keeping `assets` as a folder.
-3. Open **Settings → Pages** in the repository.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main`, choose `/ (root)`, then save.
+## Featured Projects
 
-## Edit your details
+### Mokosh Threads
 
-- Change the email address in `index.html`.
-- Add your Instagram links in `projects.js` by replacing `#`.
-- Edit the introductory text in `index.html`.
-- Add or edit projects only in `projects.js`. Copy an existing project object and update its fields.
-- Put any new images in `assets`, then use their filenames in `projects.js`.
+A Singapore-based cultural and e-commerce platform offering Slavic traditional clothing, handcrafted accessories, vintage Soviet and Russian watches, collectible cards and unusual historical objects.
 
-## Image recommendations
+Website: [mokoshthreads.com](https://mokoshthreads.com)
 
-Use WebP images around 1600 × 1067 pixels and ideally below 500 KB. The layout automatically crops them across desktop and mobile.
+### @unemployedkittens
 
-## Files
+A generative-AI social media project featuring kittens with distinctive personalities and unconventional adventures. The project experiments with recurring characters, visual comedy and short-form storytelling.
 
-- `index.html` — page structure and personal introduction
-- `style.css` — complete design and responsive styles
-- `script.js` — animation, navigation and project rendering
-- `projects.js` — the easy-to-edit project list
-- `assets/` — generated project images
+### @mokoshmyths
+
+A generative-AI storytelling project that transforms myths and legends from around the world into cinematic visual narratives.
+
+## Portfolio Features
+
+- Cinematic folklore-inspired visual design
+- Scroll-triggered entrance animations
+- Layered parallax effects
+- Responsive desktop and mobile layouts
+- Dynamically generated project sections
+- Expandable structure for future projects
+- Optimized WebP images
+- Static GitHub Pages compatibility
+
+## Built With
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- GitHub Pages
+- Generative AI imagery
+
+No frameworks or build tools are required.
+
+## Adding More Projects
+
+Project information is stored inside `projects.js`.
+
+To add another project:
+
+1. Open `projects.js`.
+2. Copy one of the existing project objects.
+3. Update its title, description, category, tags, image and link.
+4. Add the corresponding image to the `assets` folder.
+5. Commit the changes to GitHub.
+
+The new project will automatically appear on the portfolio page.
+
+## Project Structure
+
+```text
+├── index.html
+├── style.css
+├── base-fix.css
+├── script.js
+├── projects.js
+├── README.md
+├── .nojekyll
+└── assets
+    ├── mokosh-threads.webp
+    ├── unemployed-kittens.webp
+    └── mokosh-myths.webp
