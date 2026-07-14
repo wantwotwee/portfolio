@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wan Ariff — Singapore-based multidisciplinary creator building brands, stories, objects and unusual internet ideas.">
+  <meta name="theme-color" content="#07100e">
+  <title>Wan Ariff — Creative Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="base-fix.css">
+  <script src="projects.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="mist mist-a" data-depth=".08" aria-hidden="true"></div>
+  <div class="mist mist-b" data-depth=".14" aria-hidden="true"></div>
+  <div class="embers" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Wan Ariff, home">WAN ARIFF</a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Singapore · Multidisciplinary creator</p>
+        <h1 id="hero-title">I build worlds,<br>brands, and strange<br>little internet ideas.</h1>
+        <p class="hero-intro">From Slavic folklore and vintage watches to generative kittens and global myths — I turn curiosity into stories, objects, and digital experiences.</p>
+        <a class="button" href="#projects"><span>Explore the work</span><i aria-hidden="true">↓</i></a>
+      </div>
+      <div class="hero-archive" aria-hidden="true">
+        <figure class="archive-frame frame-main" data-depth=".1"><img src="assets/mokosh-threads.webp" alt=""></figure>
+        <figure class="archive-frame frame-kitten" data-depth=".18"><img src="assets/unemployed-kittens.webp" alt=""></figure>
+        <figure class="archive-frame frame-myth" data-depth=".12"><img src="assets/mokosh-myths.webp" alt=""></figure>
+        <div class="archive-sigil">✦</div>
+      </div>
+      <p class="scroll-note">Scroll to enter the archive <span>01—03</span></p>
+    </section>
+
+    <section class="manifesto section-shell reveal" id="about">
+      <p class="section-index">The maker · 00</p>
+      <div>
+        <p class="manifesto-lead">Curiosity is the thread connecting everything I make.</p>
+        <p>I’m Wan Ariff, a Singapore-based creator working where culture, technology and storytelling meet. My projects move between physical objects, digital experiences, generative AI and forgotten histories—each one an invitation to look closer.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects" aria-labelledby="projects-title">
+      <div class="projects-heading section-shell reveal">
+        <p class="eyebrow">Selected work · Living archive</p>
+        <h2 id="projects-title">Projects in progress</h2>
+      </div>
+      <div id="project-list"></div>
+    </section>
+
+    <section class="future section-shell reveal" id="future">
+      <p class="section-index">Open shelf · ∞</p>
+      <div class="future-card">
+        <span class="future-mark">+</span>
+        <div><p class="eyebrow">The archive keeps growing</p><h2>Something new is taking shape.</h2><p>This portfolio is designed to expand. New experiments, ventures and stories will appear here as they become real.</p></div>
+      </div>
+    </section>
+
+    <section class="contact section-shell" id="contact">
+      <p class="eyebrow reveal">Have an idea, collaboration or curious question?</p>
+      <h2 class="reveal">Let’s make something<br><em>worth remembering.</em></h2>
+      <a class="contact-link reveal" href="mailto:your@email.com">your@email.com <span>↗</span></a>
+      <p class="contact-note">Replace this email in <strong>index.html</strong> with your own.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><span>© <span id="year"></span> Wan Ariff</span><a href="#top">Back to the entrance ↑</a></footer>
+</body>
+</html>

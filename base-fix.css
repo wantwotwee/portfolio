@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  color: var(--parchment);
+  background: radial-gradient(circle at 80% 10%, #14241f 0, transparent 36%), var(--forest);
+  font-family: var(--sans);
+  overflow-x: hidden;
+}
+
+a { color: inherit; }
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
