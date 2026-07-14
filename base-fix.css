@@ -14,3 +14,50 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+/* Keep typography consistent between desktop and mobile browsers. */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+.project-copy {
+  min-width: 0;
+}
+
+.project-copy h3 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+/* The social handle is one long word, so it needs a slightly more compact
+   desktop display size to stay inside the text column. */
+.project[data-project="02"] .project-copy h3 {
+  font-size: clamp(42px, 3.65vw, 68px);
+  letter-spacing: -0.045em;
+}
+
+@media (max-width: 900px) {
+  .project-copy h3,
+  .project[data-project="02"] .project-copy h3 {
+    font-size: clamp(42px, 11vw, 52px);
+    line-height: 0.96;
+    letter-spacing: -0.035em;
+  }
+
+  .project-type,
+  .project-description,
+  .tags,
+  .text-link {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .project-copy h3,
+  .project[data-project="02"] .project-copy h3 {
+    font-size: clamp(38px, 10.5vw, 48px);
+  }
+}
