@@ -1,0 +1,136 @@
+.ai-hero {
+  min-height: 100svh;
+  padding-top: 160px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 48% 52%;
+  align-items: center;
+  position: relative;
+}
+
+.ai-hero::before {
+  content: "";
+  position: absolute;
+  top: 110px;
+  bottom: 40px;
+  left: 47%;
+  width: 1px;
+  background: linear-gradient(var(--line), transparent);
+}
+
+.ai-hero-copy { position: relative; z-index: 3; }
+
+.ai-hero h1 {
+  font: 500 clamp(54px, 5.4vw, 88px)/.96 var(--serif);
+  letter-spacing: -.035em;
+  margin: 26px 0;
+}
+
+.ai-hero h1 em,
+.return-home h2 em {
+  color: var(--gold);
+  font-weight: 400;
+}
+
+.ai-hero-copy > p:not(.eyebrow) {
+  max-width: 590px;
+  color: #c6c0b2;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.ai-hero-images {
+  height: min(650px, 65vw);
+  max-height: 68vh;
+  position: relative;
+  margin-left: 7%;
+}
+
+.ai-frame {
+  position: absolute;
+  margin: 0;
+  padding: 8px;
+  border: 1px solid var(--gold);
+  background: var(--forest);
+  box-shadow: 0 28px 70px rgba(0,0,0,.55);
+  overflow: hidden;
+  transform: translate3d(0,var(--parallax,0),0);
+}
+
+.ai-frame::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(197,166,101,.35);
+}
+
+.ai-frame-kitten { inset: 4% 24% 18% 0; z-index: 2; }
+.ai-frame-myths { width: 48%; height: 49%; right: 0; bottom: 0; z-index: 3; }
+
+.ai-orbit {
+  position: absolute;
+  width: 43%;
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+}
+
+.ai-orbit::before,
+.ai-orbit::after {
+  content: "";
+  position: absolute;
+  inset: 14%;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+}
+
+.ai-orbit::after { inset: 47%; background: var(--gold); }
+
+.return-home {
+  min-height: 78vh;
+  padding: 130px 0;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.return-home h2 {
+  font: 500 clamp(55px, 8vw, 118px)/.9 var(--serif);
+  margin: 28px 0 45px;
+}
+
+.future-link { display: inline-block; margin-top: 28px; }
+
+/* Long social handles remain inside the archive text column. */
+.project[data-project="01"] .project-copy h3 {
+  font-size: clamp(42px, 3.65vw, 68px);
+  letter-spacing: -.045em;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .ai-hero {
+    padding-top: 130px;
+    grid-template-columns: 1fr;
+    align-content: start;
+  }
+  .ai-hero::before { display: none; }
+  .ai-hero h1 { font-size: clamp(48px, 13vw, 72px); }
+  .ai-hero-images { height: 520px; margin: 70px 0 20px; }
+  .project[data-project="01"] .project-copy h3 { font-size: clamp(42px, 11vw, 52px); }
+}
+
+@media (max-width: 520px) {
+  .ai-hero { padding-top: 115px; }
+  .ai-hero h1 { font-size: 46px; }
+  .ai-hero-copy > p:not(.eyebrow) { font-size: 15px; }
+  .ai-hero-images { height: 390px; }
+  .ai-frame-kitten { right: 10%; }
+  .ai-frame-myths { width: 54%; }
+  .ai-orbit { display: none; }
+  .project[data-project="01"] .project-copy h3 { font-size: clamp(38px, 10.5vw, 48px); }
+  .return-home h2 { font-size: 52px; }
+}
