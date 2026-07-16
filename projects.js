@@ -14,24 +14,35 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     number: "02",
-    title: "@unemployedkittens",
+    title: "Generative AI Projects",
     type: "Generative AI · Social storytelling · Ongoing",
-    description: "A playful generative-AI social page following kittens with too much personality and no conventional career prospects—an experiment in recurring characters, visual comedy and compact storytelling.",
+    description: "Projects created with past & current gen-AI tools, managed and curated by me.",
     image: "assets/unemployed-kittens.webp",
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
-    tags: ["Generative AI", "Character design", "Social media", "Comedy"],
-    link: "https://www.instagram.com/unemployedkittens/reels/",
-    linkLabel: "Visit @unemployedkittens"
+    tags: ["Generative AI", "Character design", "Social media", "Storytelling"],
+    link: "https://wantwotwee.com/gen-ai/",
+    linkLabel: "Visit Gen AI Projects"
   },
   {
     number: "03",
-    title: "@mokoshmyths",
-    type: "Generative AI · Mythology · Ongoing",
-    description: "A visual storytelling project that reimagines myths and legends from around the world, transforming research into cinematic short-form narratives while keeping the cultures behind them visible.",
+    title: "Spoil Market",
+    type: "AI Automation · E-commerce · Ongoing",
+    description: "An N8N-assisted project that searches & negotiates the best deals for just about anything. It will get the best prices for you.",
     image: "assets/mokosh-myths.jpeg",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
-    tags: ["World mythology", "AI filmmaking", "Research", "Narrative design"],
-    link: "https://www.instagram.com/mokoshmyths/",
-    linkLabel: "Visit @mokoshmyths"
+    tags: ["N8N", "AI Automation", "Research", "Negotiation"],
+    link: "#",
+    linkLabel: "Coming Soon"
+  },
+   {
+    number: "04",
+    title: "Digital Guides",
+    type: "Digital Guides · Ongoing",
+    description: "A repository of guides created based on past projects created.",
+    image: "assets/mokosh-myths.jpeg",
+    alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
+    tags: ["Guide", "Research", "Digital"],
+    link: "#",
+    linkLabel: "Coming Soon"
   }
 ];
