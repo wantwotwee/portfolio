@@ -24,7 +24,8 @@ projectList.innerHTML = projects.map((project, index) => {
     </article>`;
 }).join('');
 
-document.querySelector('#hero-count').textContent = projects.length ? `01—${total}` : '00';
+const heroCount = document.querySelector('#hero-count');
+if (heroCount) heroCount.textContent = projects.length ? `01—${total}` : '00';
 document.querySelector('#year').textContent = new Date().getFullYear();
 
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
