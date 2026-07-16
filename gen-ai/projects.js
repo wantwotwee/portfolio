@@ -16,7 +16,7 @@ window.AI_PROJECTS = [
     title: "@mokoshmyths",
     type: "Generative AI · Mythology · Ongoing",
     description: "A visual storytelling project that reimagines myths and legends from around the world, transforming research into cinematic short-form narratives while keeping the cultures behind them visible.",
-    image: "../assets/mokosh-myths.jpg",
+    image: "../assets/mokosh-myths.jpeg",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
     tags: ["World mythology", "AI filmmaking", "Research", "Narrative design"],
     link: "https://www.instagram.com/mokoshmyths/",
