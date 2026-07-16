@@ -9,8 +9,8 @@ window.AI_PROJECTS = [
     image: "../assets/unemployed-kittens.webp",
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
     tags: ["Generative AI", "Character design", "Social media", "Comedy"],
-    link: "#",
-    linkLabel: "Social link coming soon"
+    link: "https://www.instagram.com/unemployedkittens/reels/",
+    linkLabel: "Visit @unemployedkittens"
   },
   {
     title: "@mokoshmyths",
@@ -19,7 +19,7 @@ window.AI_PROJECTS = [
     image: "../assets/mokosh-myths.webp",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
     tags: ["World mythology", "AI filmmaking", "Research", "Narrative design"],
-    link: "#",
-    linkLabel: "Social link coming soon"
+    link: "https://www.instagram.com/mokoshmyths/",
+    linkLabel: "Visit @mokoshmyths"
   }
 ];
