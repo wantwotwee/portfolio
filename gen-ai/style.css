@@ -104,6 +104,12 @@
 
 .future-link { display: inline-block; margin-top: 28px; }
 
+/* Extra clearance because the projects heading is now the first section
+   beneath the absolute site header. */
+.projects-heading-first {
+  padding-top: 190px;
+}
+
 /* Long social handles remain inside the archive text column. */
 .project[data-project="01"] .project-copy h3 {
   font-size: clamp(42px, 3.65vw, 68px);
@@ -112,6 +118,7 @@
 }
 
 @media (max-width: 900px) {
+  .projects-heading-first { padding-top: 140px; }
   .ai-hero {
     padding-top: 130px;
     grid-template-columns: 1fr;
