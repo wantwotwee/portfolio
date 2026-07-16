@@ -8,7 +8,7 @@ projectList.innerHTML = projects.map((project, index) => {
     <article class="project" data-project="${number}">
       <div class="project-sticky section-shell">
         <div class="project-copy reveal">
-          <p class="section-index">AI archive entry · ${number}</p>
+          <p class="section-index">Project · ${number}</p>
           <p class="project-type">${project.type}</p>
           <h3>${project.title}</h3>
           <p class="project-description">${project.description}</p>
