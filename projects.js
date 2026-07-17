@@ -39,7 +39,7 @@ window.PORTFOLIO_PROJECTS = [
     title: "Exprius Hair Transplant",
     type: "Hair Transplant · Travel · Ongoing",
     description: "A premium medical travel platform connecting clients with reputable international hair-transplant providers. Creating tailored packages covering clinic arrangements, flights, luxury accommodation, local guidance and aftercare support for a seamless journey from consultation to recovery.",
-    image: "assets/mokosh-myths.jpeg",
+    image: "assets/hairtransplant.png",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
     tags: ["Guide", "Research", "Travel"],
     link: "#",
