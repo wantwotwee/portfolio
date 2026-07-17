@@ -16,7 +16,7 @@ window.PORTFOLIO_PROJECTS = [
     number: "02",
     title: "Gen AI Projects",
     type: "Generative AI · Ongoing",
-    description: "Projects created with past & current gen-AI tools, managed and curated by me.",
+    description: "Projects created using past & current gen-AI tools, managed and curated by me.",
     image: "assets/unemployed-kittens.webp",
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
     tags: ["Generative AI", "Character design", "Social media", "Storytelling"],
