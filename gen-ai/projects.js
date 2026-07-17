@@ -5,7 +5,7 @@ window.AI_PROJECTS = [
   {
     title: "@unemployedkittens",
     type: "Generative AI · Social storytelling · Ongoing",
-    description: "A playful generative-AI social page following kittens with too much personality and no conventional career prospects—an experiment in recurring characters, visual comedy and compact storytelling.",
+    description: "A playful generative-AI social page following kittens with too much personality and no conventional career prospects—an experiment in recurring characters, visual comedy and compact storytelling. More than 1,000,000 views & thousands of followers on Instagram.",
     image: "../assets/unemployed-kittens.webp",
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
     tags: ["Generative AI", "Character design", "Social media", "Comedy"],
