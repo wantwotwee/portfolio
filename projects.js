@@ -14,8 +14,8 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     number: "02",
-    title: "Generative AI Projects",
-    type: "Generative AI · Social storytelling · Ongoing",
+    title: "Gen AI Projects",
+    type: "Generative AI · Ongoing",
     description: "Projects created with past & current gen-AI tools, managed and curated by me.",
     image: "assets/unemployed-kittens.webp",
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
@@ -36,12 +36,12 @@ window.PORTFOLIO_PROJECTS = [
   },
    {
     number: "04",
-    title: "Digital Guides",
-    type: "Digital Guides · Ongoing",
-    description: "A repository of guides created based on past projects created.",
+    title: "Exprius Hair Transplant",
+    type: "Hair Transplant · Travel · Ongoing",
+    description: "A premium medical travel platform connecting clients with reputable international hair-transplant providers. Creating tailored packages covering clinic arrangements, flights, luxury accommodation, local guidance and aftercare support for a seamless journey from consultation to recovery.",
     image: "assets/mokosh-myths.jpeg",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
-    tags: ["Guide", "Research", "Digital"],
+    tags: ["Guide", "Research", "Travel"],
     link: "#",
     linkLabel: "Coming Soon"
   }
