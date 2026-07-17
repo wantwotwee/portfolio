@@ -27,7 +27,7 @@ window.PORTFOLIO_PROJECTS = [
     number: "03",
     title: "Spoil Market",
     type: "AI Automation · E-commerce · Ongoing",
-    description: "An N8N-assisted project that searches & negotiates the best deals for just about anything. It will get the best prices for you.",
+    description: "An N8N-assisted project that searches & negotiates the best deals for anything. It will get the best prices for you.",
     image: "assets/mokosh-myths.jpeg",
     alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
     tags: ["N8N", "AI Automation", "Research", "Negotiation"],
