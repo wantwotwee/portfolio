@@ -21,7 +21,7 @@ window.PORTFOLIO_PROJECTS = [
     alt: "A fluffy kitten surrounded by subtle golden digital symbols",
     tags: ["Generative AI", "Character design", "Social media", "Storytelling"],
     link: "https://wantwotwee.com/gen-ai/",
-    linkLabel: "Visit Gen AI Projects"
+    linkLabel: "View Gen AI Projects"
   },
   {
     number: "03",
