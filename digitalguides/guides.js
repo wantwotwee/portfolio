@@ -6,8 +6,8 @@
    ================================================================ */
 
 window.DIGITAL_GUIDE_CONFIG = {
-  whatsappNumber: "6591234567",
-  telegramUsername: "yourtelegramusername",
+  whatsappNumber: "6589202646",
+  telegramUsername: "wantwotwee",
   currency: "S$"
 };
 
