@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical digital guides by WantWoTwee — clear, useful PDF resources for travel, technology and handcraft.">
+  <meta name="theme-color" content="#120d0c">
+  <title>Digital Guides — WantWoTwee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="guides.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../">WantWoTwee</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-label="Open navigation"><span></span><span></span></button>
+    <nav aria-label="Main navigation">
+      <a href="../">Home</a>
+      <a class="active" href="./">Digital Guides</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="guides-page">
+      <header class="page-intro">
+        <p class="kicker">PDF resources · Independently created</p>
+        <h1>Digital Guides</h1>
+        <p>Practical, carefully prepared guides designed to save you research time and make unfamiliar journeys, technology and crafts easier to navigate.</p>
+      </header>
+
+      <div class="guide-toolbar" aria-label="Guide filters">
+        <div id="category-filters" class="category-filters" role="group" aria-label="Filter by category"></div>
+        <div class="tool-row">
+          <label class="select-wrap">
+            <span class="sr-only">Filter by price</span>
+            <select id="price-filter">
+              <option value="all">All prices</option>
+              <option value="under10">Under S$10</option>
+              <option value="10to20">S$10–S$20</option>
+              <option value="over20">Above S$20</option>
+            </select>
+          </label>
+          <label class="select-wrap">
+            <span class="sr-only">Sort guides</span>
+            <select id="sort-guides">
+              <option value="featured">Sort by</option>
+              <option value="newest">Newest first</option>
+              <option value="price-low">Price: low to high</option>
+              <option value="price-high">Price: high to low</option>
+              <option value="title">Title: A–Z</option>
+            </select>
+          </label>
+        </div>
+        <label class="search-wrap">
+          <span class="sr-only">Search guides</span>
+          <input id="guide-search" type="search" placeholder="Search guides by title, category or topic…" autocomplete="off">
+          <span aria-hidden="true">⌕</span>
+        </label>
+      </div>
+
+      <p id="results-status" class="results-status" aria-live="polite"></p>
+      <div id="guide-grid" class="guide-grid"></div>
+      <div id="empty-state" class="empty-state" hidden>
+        <span>⌕</span><h2>No guides found</h2><p>Try another category or remove your search terms.</p>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="section-inner">
+        <p class="kicker">Simple and personal</p>
+        <h2>How to get a guide</h2>
+        <ol>
+          <li><span>01</span><div><strong>Choose your guide</strong><p>Open a card to see exactly what the PDF contains.</p></div></li>
+          <li><span>02</span><div><strong>Send an enquiry</strong><p>Contact me through WhatsApp or Telegram and mention the guide title.</p></div></li>
+          <li><span>03</span><div><strong>Pay and receive</strong><p>After payment is confirmed, the PDF will be sent to you digitally.</p></div></li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div><a class="brand" href="../">WantWoTwee</a><p>Useful knowledge, carefully packaged.</p></div>
+    <p>© <span id="year"></span> WantWoTwee</p>
+  </footer>
+
+  <div id="guide-modal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close guide details">×</button>
+      <div class="modal-media"><img id="modal-image" src="" alt=""></div>
+      <div class="modal-details">
+        <p id="modal-category" class="modal-category"></p>
+        <h2 id="modal-title"></h2>
+        <p id="modal-format" class="modal-format"></p>
+        <p id="modal-price" class="modal-price"></p>
+        <div class="enquiry-buttons">
+          <a id="telegram-link" class="enquire telegram" href="#" target="_blank" rel="noopener">Enquire on Telegram</a>
+          <a id="whatsapp-link" class="enquire whatsapp" href="#" target="_blank" rel="noopener">Enquire on WhatsApp</a>
+        </div>
+        <div class="modal-copy">
+          <p id="modal-description"></p>
+          <h3>What you’ll find inside</h3>
+          <ul id="modal-includes"></ul>
+          <h3>Why this guide is valuable</h3>
+          <p id="modal-value"></p>
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
