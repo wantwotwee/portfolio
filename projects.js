@@ -25,7 +25,7 @@ window.PORTFOLIO_PROJECTS = [
   },
    {
     number: "03",
-    title: "Exprius Hair Transplant",
+    title: "Expirius Hair Transplant",
     type: "Hair Transplant · Travel · Ongoing",
     description: "A premium medical travel platform connecting clients with reputable international hair-transplant providers. Creating tailored packages covering clinic arrangements, flights, luxury accommodation, local guidance and aftercare support for a seamless journey from consultation to recovery.",
     image: "assets/hairtransplant.png",
