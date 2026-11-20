@@ -5,7 +5,7 @@ window.PORTFOLIO_PROJECTS = [
     number: "01",
     title: "Mokosh Threads",
     type: "E-commerce · Ongoing",
-    description: "A Singapore-based store bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, & collectible cards.",
+    description: "A Singapore-based store bringing Slavic material culture into the present through traditional costumes, handcrafted accessories, vintage Soviet and Russian watches, & Soviet paraphernalia.",
     image: "assets/mokosh-threads.webp",
     alt: "Slavic embroidered textiles and a vintage mechanical watch",
     tags: ["Brand building", "Web design", "Curation", "E-commerce"],
@@ -14,6 +14,28 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     number: "02",
+    title: "Unemployed Kittens",
+    type: "AI Automation · E-commerce · Ongoing",
+    description: "An N8N-assisted project that searches & negotiates the best deals for anything. It will get the best prices for you.",
+    image: "assets/kitten-worlds.png",
+    alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
+    tags: ["N8N", "AI Automation", "Research", "Negotiation"],
+    link: "https://unemployedkittens.com",
+    linkLabel: "Visit Unemployed Kittens"
+  },
+   {
+    number: "03",
+    title: "Exprius Hair Transplant",
+    type: "Hair Transplant · Travel · Ongoing",
+    description: "A premium medical travel platform connecting clients with reputable international hair-transplant providers. Creating tailored packages covering clinic arrangements, flights, luxury accommodation, local guidance and aftercare support for a seamless journey from consultation to recovery.",
+    image: "assets/hairtransplant.png",
+    alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
+    tags: ["Guide", "Research", "Travel"],
+    link: "https://expiriushairtransplant.com",
+    linkLabel: "Visit Expirius Hair Transplant"
+  },
+    {
+    number: "04",
     title: "Gen AI Projects",
     type: "Generative AI · Ongoing",
     description: "Projects created using past & current gen-AI tools, managed and curated by me.",
@@ -22,27 +44,5 @@ window.PORTFOLIO_PROJECTS = [
     tags: ["Generative AI", "Character design", "Social media", "Storytelling"],
     link: "https://wantwotwee.com/gen-ai/",
     linkLabel: "View Gen AI Projects"
-  },
-  {
-    number: "03",
-    title: "Spoil Market",
-    type: "AI Automation · E-commerce · Ongoing",
-    description: "An N8N-assisted project that searches & negotiates the best deals for anything. It will get the best prices for you.",
-    image: "assets/mokosh-myths.jpeg",
-    alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
-    tags: ["N8N", "AI Automation", "Research", "Negotiation"],
-    link: "#",
-    linkLabel: "Coming Soon"
-  },
-   {
-    number: "04",
-    title: "Exprius Hair Transplant",
-    type: "Hair Transplant · Travel · Ongoing",
-    description: "A premium medical travel platform connecting clients with reputable international hair-transplant providers. Creating tailored packages covering clinic arrangements, flights, luxury accommodation, local guidance and aftercare support for a seamless journey from consultation to recovery.",
-    image: "assets/hairtransplant.png",
-    alt: "A reader discovering a luminous manuscript inside a mythic forest archive",
-    tags: ["Guide", "Research", "Travel"],
-    link: "#",
-    linkLabel: "Coming Soon"
   }
 ];
