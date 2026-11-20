@@ -34,23 +34,24 @@ window.DIGITAL_GUIDES = [
     featured: 1
   },
   {
-    id: "weekend-travel-planner",
-    title: "The Independent Weekend Travel Planner",
-    categories: ["Travel"],
-    price: 12.90,
-    format: "Printable PDF · Planning workbook",
+    id: "website-creator",
+    title: "Full Website Creator",
+    categories: ["Tech"],
+    price: 20,
+    format: "Illustrated PDF · Step-by-step guide",
     image: "assets/travel-guide.webp",
     imageAlt: "Travel journal, map and luggage prepared for a journey",
-    summary: "A reusable system for planning short international trips without overlooking the important details.",
-    description: "A practical planning companion for travellers who prefer to organise their own trips. The guide turns transport, accommodation, budgeting and daily itineraries into a manageable checklist that can be reused for future destinations.",
+    summary: "A comprehensive step-by-step guide to creating a professional-level website at the lowest cost. Users save more than $500 per year!",
+    description: "A practical planning guide for people who wants to create their own website with their own vision and wanting their own flexibility. This guide was trial and tested several times and replicated with success after many iterarations.",
     includes: [
-      "Pre-departure and document checklist",
-      "Accommodation comparison worksheet",
-      "Flight and ground-transport planning pages",
-      "Flexible daily itinerary templates",
-      "Budget, emergency and important-contact pages"
+      "Which platform to build your website on",
+       "Which platform to setup your server on",
+      "How to setup DNS Routing",
+      "How to create your first landing page",
+      "How to ensure https SSS certification",
+      "How to customize your own website"
     ],
-    value: "Instead of starting from an empty document every time, you get a repeatable planning framework that reduces forgotten details and keeps essential travel information in one place.",
+    value: "It helps users create websites that are customizeable to their vision, and it saves a mot of monthly costs that are typically charged by most website builder platforms and server hosting platforms.",
     published: "2026-07-10",
     featured: 2
   },
