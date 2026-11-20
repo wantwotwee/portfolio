@@ -44,8 +44,8 @@ window.DIGITAL_GUIDES = [
     summary: "A comprehensive step-by-step guide to creating a professional-level website at the lowest cost. Users save more than $500 per year!",
     description: "A practical planning guide for people who wants to create their own website with their own vision and wanting their own flexibility. This guide was trial and tested several times and replicated with success after many iterarations.",
     includes: [
-      "Which platform to build your website on",
-       "Which platform to setup your server on",
+      "Choosing which platform to build your website on",
+       "Choosing which platform to setup your server on",
       "How to setup DNS Routing",
       "How to create your first landing page",
       "How to ensure https SSS certification",
@@ -56,23 +56,22 @@ window.DIGITAL_GUIDES = [
     featured: 2
   },
   {
-    id: "handcraft-project-journal",
-    title: "The Handcraft Project Journal",
-    categories: ["Handcraft"],
+    id: "image-generator",
+    title: "Generate Images Using Personal Computer - No Internet Required!",
+    categories: ["Tech"],
     price: 8.90,
-    format: "Printable PDF · Creative workbook",
+    format: "Illustrated PDF · Step-by-step guide",
     image: "assets/handcraft-guide.webp",
     imageAlt: "Handcraft tools and materials arranged on a workshop table",
-    summary: "Plan, document and improve handmade projects with a simple reusable creative journal.",
-    description: "Designed for makers working with textiles, clay, leather, paper or mixed materials, this guide helps turn loose ideas into organised projects. It records materials, dimensions, techniques, costs and lessons from every attempt.",
+    summary: "A comprehensive guide to learning how to convert your computer into a machine to generate AI images. All for free!",
+    description: "Designed for makers who do not want to use AI on the web due to privacy concerns. This guide shows you how to use your own laptop's computing power to create AI images instead.",
     includes: [
-      "Project concept and sketch pages",
-      "Materials, measurements and supplier lists",
-      "Cost and pricing worksheets",
-      "Process notes and progress checkpoints",
-      "Post-project review and improvement prompts"
+      "Choosing the open-source AI brain for your computer",
+      "Installing and navigating the UI for the image generator",
+      "Installing the necessary libraries for your intended image styles",
+      "Generating your first image",
     ],
-    value: "It helps makers reproduce successful work, understand their real costs and preserve the small process discoveries that are often forgotten between projects.",
+    value: "It helps makers reproduce images at no cost except for their own computer;s computing power and not create any online presence when generating the images.",
     published: "2026-07-05",
     featured: 3
   }
